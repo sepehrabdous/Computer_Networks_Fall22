@@ -61,13 +61,13 @@ You will need an X Server to input commands to the virtual machine.
 
 Open your terminal (use the one mentioned in step 3 if using Windows) and `cd` to wherever you want to keep files for this course on your computer.  
 
-Run `https://github.com/sepehrabdous/Computer_Networks_Spring21.git` to download the course files from GitHub.
+Run `https://github.com/sepehrabdous/Computer_Networks_Fall22.git` to download the course files from GitHub.
 
-`cd Computer_Networks_Spring21` to enter the course assignment directory.
+`cd Computer_Networks_Fall22` to enter the course assignment directory.
 
 ### Step 6: Provision virtual machine using Vagrant
 
-From the `Computer_Networks_Spring21` directory you just entered, run the command  `vagrant up` to start the VM and  provision it according to the Vagrantfile. You will likely have to wait several minutes. You may see warnings/errors in red, such as "default: stdin: is not a tty", but you shouldn't have worry about them.
+From the `Computer_Networks_Fall22` directory you just entered, run the command  `vagrant up` to start the VM and  provision it according to the Vagrantfile. You will likely have to wait several minutes. You may see warnings/errors in red, such as "default: stdin: is not a tty", but you shouldn't have worry about them.
 
 **Note 1**: The following commands will allow you to stop the VM at any point (such as when you are done working on an assignment for the day):
 
@@ -84,7 +84,7 @@ You must be in some subdirectory of the directory containing the Vagrantfile to 
 
 Run `vagrant ssh` from your terminal. This is the command you will use every time you want to access the VM. If it works, your terminal prompt will change to `vagrant@networks:~$`. All further commands will execute on the VM. You can then run `cd /vagrant` to get to the course directory that's shared between your regular OS and the VM.
 
-Vagrant is especially useful because of this shared directory structure.  You don't need to copy files to and from the VM. Any file or directory in the `Computer_Networks_Spring21` directory where the `Vagrantfile` is located is automatically shared between your computer and the virtual machine. This means you can use your IDE of choice from outside the VM to write your code (but will still have to build and run within the VM).
+Vagrant is especially useful because of this shared directory structure.  You don't need to copy files to and from the VM. Any file or directory in the `Computer_Networks_Fall22` directory where the `Vagrantfile` is located is automatically shared between your computer and the virtual machine. This means you can use your IDE of choice from outside the VM to write your code (but will still have to build and run within the VM).
 
 The command `logout` will stop the SSH connection at any point.
 
