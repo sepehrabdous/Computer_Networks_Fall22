@@ -2,7 +2,7 @@
 
 Welcome to the Computer Networks course! Through the assignments of this course, you will gain hands-on experience with real-world network programming. You will write a program that allows your computer to communicate with another, be it across the room or across the world. You will program a router to deliver information to the right destination in a network with thousands of nodes. You will learn how decisions made by protocol designers and network administrators affect Internet performance. You will learn how to analyze data from the network to detect security threats and learn how to prevent them.
 
-The programming assignments are designed to be challenging but manageable in the time allotted. If you have questions, want to suggest clarifications, or are struggling with any of the assignments this semester, please come to office hours or ask questions on Piazza.
+The programming assignments are designed to be challenging but manageable in the time allotted. If you have questions, want to suggest clarifications, or are struggling with any of the assignments this semester, please come to office hours or ask questions on Canvas.
 
 Unless stated otherwise, the assignments are not group assignments. **You are not allowed to copy or look at code from other students.** However, you are welcome to discuss the assignments with other students without sharing code.
 
@@ -10,7 +10,7 @@ Good luck.
 
 ## Setting up Vagrant
 
-For programminmg assignments in this course, it is highly recommended that you use Vagrant to run your code as the environment here is the same as what we will be grading with. Follow this guide on how to setup the virtual machine, and if you have any questions or issues with this, feel free to ask on Piazza or ask at office hours.
+For programminmg assignments in this course, it is highly recommended that you use Vagrant to run your code as the environment here is the same as what we will be grading with. Follow this guide on how to setup the virtual machine, and if you have any questions or issues with this, feel free to ask on Canvas or ask at office hours.
 
 ### Step 1: Install Vagrant
 
