@@ -55,7 +55,7 @@ Make sure that your client and server support the following:
 * Several messages sent concurrently from separate clients to one server
 
 ## Debugging
-Here are some debugging tips. If you are still having trouble, ask a question on Piazza or see an instructor during office hours.
+Here are some debugging tips. If you are still having trouble, ask a question on Canvas or see an instructor during office hours.
 
 * Different OSes might slightly change in the way they implement the systemcalls. As Gradescope uses Ubuntu 18.04, make sure your code also works and covers all the requirements on Ubuntu. For this purpose, you can use [virtualbox](https://www.virtualbox.org/) to setup a virtual machine. https://brb.nci.nih.gov/seqtools/installUbuntu.html provides a useful guide on how to setup virtual machines using virtualbox.
 
@@ -71,7 +71,7 @@ Here are some debugging tips. If you are still having trouble, ask a question on
 
 * If you are getting connection errors, try a different port between 10000 and 60000.
 
-* If your using WSL (Windows Subsystem for Linux) to test your code, note that there are some differences in how systemcalls work in WSL and Linux OS.
+* Windows users may also use WSL (Windows Subsystem for Linux) to test their code.
 
 ## Submission
 
