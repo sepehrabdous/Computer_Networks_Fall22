@@ -75,4 +75,4 @@ Here are some debugging tips. If you are still having trouble, ask a question on
 
 ## Submission
 
-Please submit your `server.c` and `client.c` files to Canvas. You may include a README if you feel that there is anything that you need to explain to the graders, but this is not required. Please do not submit any additional files or executables.
+Please submit your `server.c` and `client.c` files to Gradescope. You may include a README if you feel that there is anything that you need to explain to the graders, but this is not required. Please do not submit any additional files or executables.
