@@ -27,9 +27,9 @@ but don't forget to do so or Vagrant will not work!
 
 VirtualBox is a VM provider (hypervisor).
 
-**macOS & Windows:** You need to install VirtualBox using the correct download link for your computer [here](https://www.virtualbox.org/wiki/Downloads). The links are under the heading "VirtualBox 5.x.x platform packages."
+**macOS & Windows:** You need to install VirtualBox using the correct download link for your computer [here](https://www.virtualbox.org/wiki/Downloads). The links are under the heading "VirtualBox 6.x.x platform packages."
 
-**Windows only:** Use all the default installation settings, but you can uncheck the "Start Oracle VirtualBox 5.x.x after installation" checkbox.
+**Windows only:** Use all the default installation settings, but you can uncheck the "Start Oracle VirtualBox 6.x.x after installation" checkbox.
 
 **Linux:** Run the command `sudo apt-get install virtualbox`.
 
