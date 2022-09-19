@@ -2,7 +2,7 @@
 
 ## Due Date: October 7th, 2022 at 5 pm EST
 
-## Recording of tutorial session can be found [here]().
+## Recording of tutorial session can be found [here](https://livejohnshopkins-my.sharepoint.com/:f:/g/personal/ssharm74_jh_edu1/EjPY76TycHtGtIlcHrtk8YgBWCgzYc8_Q0mlI-oX2I4QiA?e=OS9R10).
 
 - [**Assignment 1: HTTP Proxy**](#assignment-1-http-proxy)
   - [**Overview**](#overview)
