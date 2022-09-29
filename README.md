@@ -33,7 +33,9 @@ VirtualBox is a VM provider (hypervisor).
 
 **Linux:** Run the command `sudo apt-get install virtualbox`.
 
-**Note:** This will also install the VirtualBox application on your computer, but you should never need to run it, though it may be helpful (see Step 6).
+**Note 1:** This will also install the VirtualBox application on your computer, but you should never need to run it, though it may be helpful (see Step 6).
+
+**Note 2:** Some Linux distributions might not provide virtualbox in their package repositories. If the `apt-get install` command is not working for you, you can instead download the latest version of Virtualbox from their website and use `sudo dpkg -i <virtualbox-package.deb> && sudo apt-get install -f` on Debian-based distributions or `sudo rpm localinstall <virtualbox-package.rpm>` on Redhat-based distributions.
 
 ### Step 3: Install Git (and SSH-capable terminal on Windows)
 
@@ -47,9 +49,9 @@ Git is a distributed version control system.
 
 **Linux:** `sudo apt-get install git`.
 
-### Step 4: Install X Server
+### Step 4: Install X Server (optional)
 
-You will need an X Server to input commands to the virtual machine.
+You will need an X Server if you want to manually modify the virtual machine configurations. However, for the purposes of this assignment, the automation scrpts will configure the VM for you.
 
 **macOS:** Install [XQuartz](https://www.xquartz.org/). You will need to log out and log back in to complete the installation (as mentioned by the prompt at the end).
 
@@ -80,13 +82,15 @@ You must be in some subdirectory of the directory containing the Vagrantfile to 
 
 **Note 2**: The VirtualBox application that was installed in Step 2 provides a visual interface as an alternative to these commands, where you can see the status of your VM and power it on/off or save its state. It is not recommended to use it, however, since it is not integrated with Vagrant, and typing commands should be no slower. It is also not an alternative to the initial `vagrant up` since this creates the VM.
 
-### Step 7: Test SSH to VPN
+### Step 7: Test SSH to VM
 
 Run `vagrant ssh` from your terminal. This is the command you will use every time you want to access the VM. If it works, your terminal prompt will change to `vagrant@networks:~$`. All further commands will execute on the VM. You can then run `cd /vagrant` to get to the course directory that's shared between your regular OS and the VM.
 
 Vagrant is especially useful because of this shared directory structure.  You don't need to copy files to and from the VM. Any file or directory in the `Computer_Networks_Fall22` directory where the `Vagrantfile` is located is automatically shared between your computer and the virtual machine. This means you can use your IDE of choice from outside the VM to write your code (but will still have to build and run within the VM).
 
 The command `logout` will stop the SSH connection at any point.
+
+**Important NOTE:** ONLY for assignment 2 (Router), we provide a special `Vagrantfile` in the assignment2 directory. You must `cd` to `assignment2\` and run `vagrant up` command there to provision the VM that includes the dependencies required for that assignment. The `Vagrantfile` provided next to this README file provides a generic Ubuntu environment that can be used for other assignments.
 
 ### Common Errors
 
