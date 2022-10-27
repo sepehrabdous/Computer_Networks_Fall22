@@ -31,7 +31,7 @@ We have set up Mininet on a custom Vagrant VM for this assignment. This VM is di
 $ git clone https://github.com/sepehrabdous/Computer_Networks_Fall22
 ```
 
-Next, ```cd``` into the repository that you just cloned and run the following:
+Next, ```cd``` into the repository that you just cloned and then cd into 'Assignment2/' directory and run the following:
 ```
 $ vagrant up
 ```
